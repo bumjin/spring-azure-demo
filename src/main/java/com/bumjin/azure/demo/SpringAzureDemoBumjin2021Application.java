@@ -11,7 +11,7 @@ public class SpringAzureDemoBumjin2021Application {
 
     @GetMapping("/message")
     public String message() {
-        return "Contrats! your app deployed sucessfully in azure";
+        return "환영한다! your application deployed sucessfully in azure";
 
     }
     public static void main(String[] args) {
